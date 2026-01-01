@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Ht3aa\AlwaseetDelivery;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use Ht3aa\AlwaseetDelivery\Commands\AlwaseetDeliveryCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class AlwaseetDeliveryServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('alwaseet-delivery')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_migration_table_name_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_alwaseet_delivery_table')
+            ->hasCommand(AlwaseetDeliveryCommand::class);
     }
 }

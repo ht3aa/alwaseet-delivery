@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Ht3aa\AlwaseetDelivery\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class AlwaseetDeliveryCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'alwaseet-delivery';
 
     public $description = 'My command';
 
