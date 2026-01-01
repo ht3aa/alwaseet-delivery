@@ -2,9 +2,9 @@
 
 namespace Ht3aa\AlwaseetDelivery;
 
+use Ht3aa\AlwaseetDelivery\Commands\AlwaseetDeliveryCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Ht3aa\AlwaseetDelivery\Commands\AlwaseetDeliveryCommand;
 
 class AlwaseetDeliveryServiceProvider extends PackageServiceProvider
 {

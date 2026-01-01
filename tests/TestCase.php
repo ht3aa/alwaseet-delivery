@@ -2,9 +2,9 @@
 
 namespace Ht3aa\AlwaseetDelivery\Tests;
 
+use Ht3aa\AlwaseetDelivery\AlwaseetDeliveryServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Ht3aa\AlwaseetDelivery\AlwaseetDeliveryServiceProvider;
 
 class TestCase extends Orchestra
 {
